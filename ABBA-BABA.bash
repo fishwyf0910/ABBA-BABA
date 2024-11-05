@@ -1,3 +1,8 @@
+## phasing
+java -jar /home/wangyf/miniconda3/envs/beagle/share/beagle-5.2_21Apr21.304-0/beagle.jar \
+gt=/data01/wangyf/project2/CyprinusCarpio/9.snp/raw.indel5.biSNP.QUAL30.QD3.FS30.MQ55.SOR3.MQRS-5.RPRS-5.PASS.maxmiss0.05.AF0.05.10-3ClusterFilter.vcf.gz \
+out=phasing nthreads=20
+
 ## https://github.com/simonhmartin/tutorials/blob/master/ABBA_BABA_windows
 
 #得到基因型文件，--minQual 最小质量值为30（与过滤参数一致），flag=DP min=4 max=50是指测序深度为4-50.
